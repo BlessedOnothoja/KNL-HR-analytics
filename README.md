@@ -33,7 +33,7 @@ Page 2 link:(https://github.com/BlessedOnothoja/KNL-HR-analytics/blob/e70cf8bf2c
 
 ## Insights
 
-A single page report was created on Power BI Desktop.
+A two pages report was created on Power BI Desktop.
 
 The following inferences can be drawn from the dashboard;
 
