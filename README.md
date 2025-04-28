@@ -1,38 +1,37 @@
-# KNL Limited HR Analytics Dashboard
+# KNL Absenteeism Analytics Dashboard
 
 
 ## Problem Statement
 
 This dashboard helps the organisation to analyze their employee absent rate through a one year period. It shows what categories of employees have higher reliability, the distribution of absent rates across employees of various cities, departments, division, store location and business units. It gives an overview of what aspect to look into to investigate further as to why certain groups are more efficient than some others. Since by using this dashboard, the problem has been identified, factors reponsible can be further spotted more definitely with additional information.
 
+## Tools and Methodology
+### Tools : 
+Power Query: This was used for data cleaning, standardization and validation.
 
-### Steps followed 
+DAX: This was used to generate calculated measures required to properly identify relationships between variables.
 
-- Step 1 : Load data into Power BI Desktop, dataset is an Excel file.
-- Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
-- Step 3 : Since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
-- Step 4 : Merge First name and Last name column to form a single column called "Employee Name".
-- Step 5 : Group age into age bins using conditional column in power query editor
+Power BI: Interactive dashboard creation and visualization
 
-     Image description: (https://github.com/user-attachments/assets/da665bdb-01cd-49ae-b9a6-5701cd8958b9)
+### Methodology:
+Data cleaning/Standardization/validation: A thorough data cleaning process was carried out on the data set. This includes removing of duplicates, data standardization through the entire dataset. Details of all data cleaning process was documented appropriately.
 
-- Step 6 : A dashboard template was created on power point and imported into Power BI to house the elements of the analysis.
-- Step 7 : Visual filters (Slicers) were added for six fields named "City", "Division", "Business unit", "Store Location", "Department", & "Job Title".
-- Step 8 : Six card visuals were added to the canvas, total employees, average absent hours, total job title, total cities, total departments and average length of service.        
-- Step 9 : Clustered bar chart visuals where used to show employee distribution over different age bins, average absent hours across the different age bins, top 5 departments with the highest employee count and top 5 departments with the highest average absent hours record. 
-- Step 10 : A donut chart visual was used to show gender distribution across employees. 
-- Step 11 : A matrix visual was used to show absence distribution over different age bins and division. Conditional formatting was used to spotlight the distribution of absent hours through these segments. Colors with the highest absent hours are darker, those with lower absent hours are lighter.
+Exploratory data analysis: DAX was used to create calculated measures where neccessary to aggregate and meaningfully show relationship between variables.
 
+Visualization: A two page interactive dashboard was built to clearly answer possible stakeholder's questions.
+
+## Dashboards
+
+Page 1 link: (https://github.com/BlessedOnothoja/KNL-HR-analytics/blob/e70cf8bf2c2a49d99f96e2b9c3c01f83944176b3/Absenteeism%20page1.jpg)
+
+Page 2 link:(https://github.com/BlessedOnothoja/KNL-HR-analytics/blob/e70cf8bf2c2a49d99f96e2b9c3c01f83944176b3/Absenteeism%20Page2.jpg)
  
- # Report Snapshot (Power BI DESKTOP)
-
-
-Link: (https://github.com/BlessedOnothoja/KNL-HR-analytics/blob/0b558eb2ba50f94af3ce388da99b4d239bbbc8fb/KNLHRDashboard.jpg)
 
 
 
 
-# Insights
+
+## Insights
 
 A single page report was created on Power BI Desktop.
 
@@ -48,7 +47,7 @@ The following inferences can be drawn from the dashboard;
 The 40-49 age bin has the largest proportion of employees (3,189) compared to the other age bins. In this group, there are 1,611 males and 1,578 female employees.
 
 
-           thus, though the difference between the proportion of male to female employee is not very significant, it is clear that this organization have more males than female employees.
+           thus, though the difference between the proportion of male to female employees is not very significant, it is clear that this organization have more males than female employees.
 
            Overall,though the male employees are more than the females, Average absent hours from the female employees(78hrs) outweighs that from the male employees(67hrs). More information is needed to determine further the reason for this difference.
            
@@ -63,7 +62,7 @@ The 40-49 age bin has the largest proportion of employees (3,189) compared to th
 
 
 
-    We may want to look into age related illnesses as possible reason for the high rate of absence among the 70-79 age group, however, more infromation is required to ascertain this. Furthermore, drawing inference from this analysis, the age group below 20 are the most reliable group in this workforce.
+    We may want to look into age related illnesses as possible reason for the high rate of absence among the 70-79 age group, however, more information is required to ascertain this. Furthermore, drawing inference from this analysis, the age group below 20 are the most reliable group in this workforce.
   
  
   
@@ -91,7 +90,23 @@ Both in Stores and in the entire Division,these absent hours tend to decline sig
  
  
          thus, the younger employees tends to have a higher tendency to be more efficient than the older ones.
+
+### [5] Location analysis
+
+The largest proportion of the organization's employees is in Vaucouver. Vaucouver hold 21.4% workforce of the entire organization, followed by Victoria which only hold 8.3% of the workforce.
+
+None of the top 15 countries(in terms of workforce volume) are part of the top 10 countries with the highest absenteeism count.
+
+Wyndel which had the highest average absent hours on the record has only 7 employees, while Blue Rivers which follows Wyndel closely on this chart, has only 2 employees.
+
+                There is no direct proportionality between staff volume and high absenteeism. While the data set does not contain enough information to evidence the reason while the smaller stations are more prone to absenteeism, we may infere that there may be possible poor working conditions in this locations.
+
+
  
  
-# KNL HR Analytics-Dashboard.md.txt
-Displaying # KNL HR Analytics-Dashboard.md.txt.
+## Conclusion/Recommendations
+- From the analysis, it is clear that younger employees are more reliable than the older ones. The organization should encourage and streamline HR process to bring in more younger employees.
+
+- A survey should be used to understand the distribution of individual employees perculiar situation and how the absent rate can be effectively managed to maintain organization's productivity.
+
+- Smaller cities should be investigated to understand their working conditions and ways in which they can be assisted to be more stable.
