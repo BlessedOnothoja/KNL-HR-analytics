@@ -16,7 +16,7 @@ Power BI: Interactive dashboard creation and visualization
 ### Methodology:
 Data cleaning/Standardization/validation: A thorough data cleaning process was carried out on the data set. This includes removing of duplicates, data standardization through the entire dataset. Details of all data cleaning process was documented appropriately.
 
-Exploratory data analysis: DAX was used to create calculated measures where neccessary to aggregate and meaningfully show relationship between variables.
+Exploratory data analysis: DAX was used to create calculated measures which where neccessary to aggregate and meaningfully show relationship between variables.
 
 Visualization: A two page interactive dashboard was built to clearly answer possible stakeholder's questions.
 
