@@ -110,6 +110,6 @@ Wyndel which had the highest average absent hours on the record has only 7 emplo
 - A survey should be used to understand the distribution of individual employees perculiar situation and how the absent rate can be effectively managed to maintain organization's productivity.
 
 - Smaller cities should be investigated to understand their working conditions and ways in which they can be assisted to be more stable.
-- Further investigation should be carried out to understand the perculiarities of female employees and while they are more absent than male employees.
+- Further investigation should be carried out to understand the perculiarities of female employees and why they are more absent than their male counterparts.
 
 Power BI Visualization:https://github.com/BlessedOnothoja/KNL-HR-analytics
